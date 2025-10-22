@@ -3,6 +3,8 @@
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 
+**Test Image:** ![Test ROC Curve](roc_curve.png)
+
 # Neuro-Trends Suite
 
 A production-ready monorepo featuring two machine learning projects:
@@ -58,29 +60,29 @@ neuro-trends-suite/
 ### NeuroDegenerAI Model Performance
 
 #### ROC Curve
-![ROC Curve](docs/images/roc_curve.png)
+![ROC Curve](https://raw.githubusercontent.com/zaydabash/neurodegenerAI/main/docs/images/roc_curve.png)
 *Model performance with AUC = 0.87, demonstrating excellent classification capability for neurodegenerative pattern detection.*
 
 #### Precision-Recall Curve
-![Precision-Recall Curve](docs/images/pr_curve.png)
+![Precision-Recall Curve](https://raw.githubusercontent.com/zaydabash/neurodegenerAI/main/docs/images/pr_curve.png)
 *Precision-recall analysis showing Average Precision = 0.82, critical for medical diagnosis applications.*
 
 #### Grad-CAM Interpretability
-![Grad-CAM Heatmap](docs/images/gradcam_sample.png)
+![Grad-CAM Heatmap](https://raw.githubusercontent.com/zaydabash/neurodegenerAI/main/docs/images/gradcam_sample.png)
 *Brain region attention visualization showing which areas the model focuses on for predictions - essential for clinical interpretability.*
 
 #### Confusion Matrix
-![Confusion Matrix](docs/images/confusion_matrix.png)
+![Confusion Matrix](https://raw.githubusercontent.com/zaydabash/neurodegenerAI/main/docs/images/confusion_matrix.png)
 *Detailed classification results showing model performance across different categories.*
 
 ### Real-Time Trend Detector Analytics
 
 #### UMAP Cluster Visualization
-![UMAP Clusters](docs/images/umap_clusters.png)
-*Real-time topic clustering showing 8 distinct categories (AI/ML, Crypto, Tech News, Gaming, Science, Health, Climate, Space) discovered from social media streams.*
+![UMAP Clusters](https://raw.githubusercontent.com/zaydabash/neurodegenerAI/main/docs/images/umap_clusters.png)
+*Real-time topic clustering showing 6 distinct categories (AI/ML, Crypto, Tech News, Gaming, Science, Health) discovered from social media streams.*
 
 #### Trend Timeline Analysis
-![Trend Timeline](docs/images/trend_timeline.png)
+![Trend Timeline](https://raw.githubusercontent.com/zaydabash/neurodegenerAI/main/docs/images/trend_timeline.png)
 *Live trend volume tracking demonstrating real-time social media trend analysis capabilities.*
 
 ### System Architecture
