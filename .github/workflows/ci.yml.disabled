@@ -44,7 +44,7 @@ jobs:
       matrix:
         python-version: ["3.11"]
         os: [ubuntu-latest]
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -85,7 +85,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build Docker Images
     needs: [lint-and-format, test]
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -117,7 +117,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Security Scan
     needs: [build-docker]
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -138,7 +138,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Integration Tests
     needs: [build-docker]
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -156,10 +156,10 @@ jobs:
         run: |
           # Test NeuroDegenerAI API
           curl -f http://localhost:9001/health
-          
+
           # Test Trend Detector API
           curl -f http://localhost:9002/health
-          
+
           # Test API endpoints
           curl -X POST http://localhost:9001/predict/tabular \
                -H "Content-Type: application/json" \
@@ -173,7 +173,7 @@ jobs:
     name: Performance Tests
     needs: [build-docker]
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

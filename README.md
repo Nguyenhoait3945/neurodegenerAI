@@ -5,7 +5,7 @@
 
 # Neuro-Trends Suite
 
-A production-ready monorepo featuring two machine learning projects: 
+A production-ready monorepo featuring two machine learning projects:
 **NeuroDegenerAI** for early neurodegenerative pattern detection and **Real-Time Trend Detector** for social media trend analysis.
 
 ## Project Overview
@@ -86,7 +86,7 @@ docker-compose up --build
 
 ### 4. Access Applications
 - **NeuroDegenerAI UI**: http://localhost:8501
-- **Trend Detector UI**: http://localhost:8502  
+- **Trend Detector UI**: http://localhost:8502
 - **Unified Hub**: http://localhost:8503
 - **NeuroDegenerAI API**: http://localhost:9001
 - **Trend Detector API**: http://localhost:9002
@@ -319,7 +319,7 @@ git push origin feature/your-feature-name
 - **ReDoc**: http://localhost:9001/redoc
 - **Health Check**: http://localhost:9001/health
 
-### Trend Detector API  
+### Trend Detector API
 - **UI**: http://localhost:9002/docs
 - **ReDoc**: http://localhost:9002/redoc
 - **Health Check**: http://localhost:9002/health

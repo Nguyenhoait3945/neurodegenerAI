@@ -223,14 +223,14 @@ gcloud run deploy trends-api \
 # Deploy UIs
 gcloud run deploy neuro-ui \
   --source . \
-  --dockerfile neurodegenerai/Dockerfile 
+  --dockerfile neurodegenerai/Dockerfile
   --target ui \
-  --region $GCP_REGION 
+  --region $GCP_REGION
   --allow-unauthenticated
 
-gcloud run deploy trends-ui 
+gcloud run deploy trends-ui
   --source . \
-  --dockerfile trend-detector/Dockerfile 
+  --dockerfile trend-detector/Dockerfile
   --target ui \
   --region $GCP_REGION \
   --allow-unauthenticated

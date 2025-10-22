@@ -2,11 +2,11 @@
 
 ## Model Details
 
-**Model Name**: NeuroDegenerAI Early Detection Model  
-**Version**: 0.1.0  
-**Date**: December 2024  
-**Model Type**: Ensemble (LightGBM + CNN)  
-**Task**: Binary Classification (Normal vs. Cognitive Impairment)  
+**Model Name**: NeuroDegenerAI Early Detection Model
+**Version**: 0.1.0
+**Date**: December 2024
+**Model Type**: Ensemble (LightGBM + CNN)
+**Task**: Binary Classification (Normal vs. Cognitive Impairment)
 
 ## Intended Use
 
@@ -29,7 +29,7 @@
 
 ### Data Characteristics
 - **Sample Size**: 1,000+ subjects (demo mode), variable (real data)
-- **Features**: 
+- **Features**:
   - Demographics: Age, sex, education
   - Genetic: APOE4 status
   - Cognitive: MMSE, CDR scores
@@ -47,7 +47,7 @@
 
 ### Tabular Model (LightGBM)
 - **Algorithm**: LightGBM Gradient Boosting
-- **Parameters**: 
+- **Parameters**:
   - num_leaves: 31
   - learning_rate: 0.05
   - n_estimators: 1000
@@ -170,10 +170,10 @@
 
 ## Contact Information
 
-**Development Team**: Neuro-Trends Team  
-**Repository**: [GitHub Repository URL]  
-**Documentation**: [Documentation URL]  
-**Support**: [Support Contact]  
+**Development Team**: Neuro-Trends Team
+**Repository**: [GitHub Repository URL]
+**Documentation**: [Documentation URL]
+**Support**: [Support Contact]
 
 ## Citation
 
@@ -195,5 +195,5 @@ This model is released under the MIT License. See LICENSE file for details.
 
 ---
 
-**Last Updated**: December 2024  
+**Last Updated**: December 2024
 **Next Review**: March 2025

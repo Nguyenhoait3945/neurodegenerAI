@@ -15,7 +15,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: Deploy to Cloud Run
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -133,7 +133,7 @@ jobs:
         run: |
           NEURO_API_URL=$(gcloud run services describe neuro-api --region=${{ env.GCP_REGION }} --format="value(status.url)")
           TRENDS_API_URL=$(gcloud run services describe trends-api --region=${{ env.GCP_REGION }} --format="value(status.url)")
-          
+
           # Test health endpoints
           curl -f $NEURO_API_URL/health
           curl -f $TRENDS_API_URL/health
@@ -144,7 +144,7 @@ jobs:
           NEURO_UI_URL=$(gcloud run services describe neuro-ui --region=${{ env.GCP_REGION }} --format="value(status.url)")
           TRENDS_API_URL=$(gcloud run services describe trends-api --region=${{ env.GCP_REGION }} --format="value(status.url)")
           TRENDS_UI_URL=$(gcloud run services describe trends-ui --region=${{ env.GCP_REGION }} --format="value(status.url)")
-          
+
           echo "## 🚀 Deployment Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### NeuroDegenerAI" >> $GITHUB_STEP_SUMMARY

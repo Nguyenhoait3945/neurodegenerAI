@@ -117,10 +117,10 @@ Users are responsible for ensuring compliance with all applicable laws and regul
 
 ## Contact Information
 
-**Development Team**: Neuro-Trends Team  
-**Repository**: [GitHub Repository URL]  
-**Documentation**: [Documentation URL]  
-**Support**: [Support Contact]  
+**Development Team**: Neuro-Trends Team
+**Repository**: [GitHub Repository URL]
+**Documentation**: [Documentation URL]
+**Support**: [Support Contact]
 
 ## Version History
 
@@ -128,7 +128,7 @@ Users are responsible for ensuring compliance with all applicable laws and regul
 
 ---
 
-**Last Updated**: December 2024  
+**Last Updated**: December 2024
 **Next Review**: March 2025
 
 **Please read this disclaimer carefully before using the Trend Detector system. By using this system, you acknowledge that you have read, understood, and agree to the terms and limitations described above.**
