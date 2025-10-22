@@ -29,8 +29,8 @@ class TrendAnalyzer(LoggerMixin):
         self.burstiness_weight = burstiness_weight
 
         # Historical data storage
-        self.topic_history = defaultdict(lambda: deque(maxlen=100))
-        self.centroid_history = defaultdict(lambda: deque(maxlen=50))
+        self.topic_history: dict[int, deque] = defaultdict(lambda: deque(maxlen=100))
+        self.centroid_history: dict[int, deque] = defaultdict(lambda: deque(maxlen=50))
 
         self.logger.info("Trend analyzer initialized")
 

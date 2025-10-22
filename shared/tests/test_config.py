@@ -13,7 +13,7 @@ from shared.lib.config import (
 )
 
 
-def test_settings_defaults():
+def test_settings_defaults() -> None:
     """Test default settings values."""
     settings = Settings()
 
@@ -24,7 +24,7 @@ def test_settings_defaults():
     assert settings.embedding_model == "all-MiniLM-L6-v2"
 
 
-def test_settings_from_env():
+def test_settings_from_env() -> None:
     """Test settings loaded from environment variables."""
     os.environ["ENV"] = "production"
     os.environ["LOG_LEVEL"] = "DEBUG"
@@ -37,7 +37,7 @@ def test_settings_from_env():
     assert settings.neuro_demo_mode is False
 
 
-def test_get_settings_singleton():
+def test_get_settings_singleton() -> None:
     """Test that get_settings returns singleton instance."""
     settings1 = get_settings()
     settings2 = get_settings()
@@ -45,7 +45,7 @@ def test_get_settings_singleton():
     assert settings1 is settings2
 
 
-def test_environment_helpers():
+def test_environment_helpers() -> None:
     """Test environment helper functions."""
     settings = Settings()
 
@@ -60,7 +60,7 @@ def test_environment_helpers():
     assert is_production() is True
 
 
-def test_demo_mode():
+def test_demo_mode() -> None:
     """Test demo mode detection."""
     settings = Settings()
 
@@ -71,7 +71,7 @@ def test_demo_mode():
     assert is_demo_mode() is False
 
 
-def test_data_directory_paths():
+def test_data_directory_paths() -> None:
     """Test data directory path generation."""
     from shared.lib.config import get_data_dir, get_model_dir
 
@@ -90,7 +90,7 @@ def test_data_directory_paths():
     assert "trend-detector" in trends_model_dir
 
 
-def test_ensure_directories():
+def test_ensure_directories() -> None:
     """Test directory creation."""
     from shared.lib.config import ensure_directories
 
@@ -98,7 +98,7 @@ def test_ensure_directories():
     ensure_directories()
 
 
-def test_settings_validation():
+def test_settings_validation() -> None:
     """Test settings validation."""
     # Test valid settings
     settings = Settings()

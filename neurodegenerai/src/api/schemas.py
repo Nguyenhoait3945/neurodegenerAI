@@ -76,7 +76,7 @@ class MRIPredictionRequest(BaseModel):
     metadata: dict[str, Any] | None = Field(None, description="Additional metadata")
 
     @validator("volume_data")
-    def validate_volume_data(cls, v):
+    def validate_volume_data(cls, v: Any) -> Any:
         """Validate volume data format."""
         if not v:
             raise ValueError("Volume data cannot be empty")
@@ -179,7 +179,7 @@ class BatchPredictionRequest(BaseModel):
     model_type: str = Field(default="tabular", description="Type of model to use")
 
     @validator("data")
-    def validate_data(cls, v):
+    def validate_data(cls, v: Any) -> Any:
         """Validate batch data."""
         if not v:
             raise ValueError("Data list cannot be empty")
